@@ -20,7 +20,7 @@ print("-----iniciando processamento-------")
 
 count = 0
 for doc in documentos:
-    count == count + 1
+    count = count + 1
     resultado = processador_de_ia(doc)
     print(f"Processado {count} com sucesso: {resultado}")
     
