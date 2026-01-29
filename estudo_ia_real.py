@@ -1,10 +1,10 @@
 #%%
-from sentence_transformers import SentenceTransformer
+#from sentence_transformers import SentenceTransformer
 from sentence_transformers import util
 
 # 1. Vamos carregar o modelo (o "cérebro")
 print("Carregando o modelo...")
-model = SentenceTransformer('all-MiniLM-L6-v2')
+# model = SentenceTransformer('all-MiniLM-L6-v2')
 
 # 2. Dados de estudo (vamos imaginar que são trechos em PDF)
 # textos = [
